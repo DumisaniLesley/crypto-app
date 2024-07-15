@@ -35,7 +35,7 @@ const Portfolio = () => {
           <h2 className='text-2xl md:text-4xl font-bold'>Build your <span className='text-[#BBED2B]'>crypto</span> portfolio</h2>
           <p className='text-sm md:text-lg my-4'>Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can ecosystem of specialized called.</p>
         </div>
-        <div>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8'>
           {portfolioData.map((portfolio) => (
             <PortfolioCard key={portfolio.id} name={portfolio.name} title={portfolio.title} description={portfolio.description} link={portfolio.link} icon={portfolio.icon} />
           ))}
