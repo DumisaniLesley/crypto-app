@@ -81,15 +81,15 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold">Newsletter</h3>
           <div className="mt-2">
-            <div class="flex rounded-lg shadow-sm">
+            <div className="flex rounded-lg shadow-sm">
               <input
                 type="text"
                 name="hs-input-with-add-on-url"
                 id="hs-input-with-add-on-url"
-                class="py-2 px-8 block w-full border-gray-200 shadow-sm rounded-s-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
+                className="py-2 px-8 block w-full border-gray-200 shadow-sm rounded-s-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
                 placeholder="Enter Your Email"
               />
-              <button class="px-4 lg:text-sm lg:px-2 inline-flex items-center min-w-fit rounded-e-md border border-e-0 border-[#BBED2B] bg-[#BBED2B] ">
+              <button className="px-4 lg:text-sm lg:px-2 inline-flex items-center min-w-fit rounded-e-md border border-e-0 border-[#BBED2B] bg-[#BBED2B] ">
                 Subscribe
               </button>
             </div>
