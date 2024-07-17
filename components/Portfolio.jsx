@@ -31,9 +31,9 @@ const Portfolio = () => {
   return (
     <div className='max-w-[85%] mx-auto md:mt-10'>
       <div>
-        <div className='text-center lg:text-start'>
+        <div className='text-center'>
           <h2 className='text-2xl md:text-4xl font-bold'>Build your <span className='text-[#BBED2B]'>crypto</span> portfolio</h2>
-          <p className='text-sm md:text-lg my-4'>Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can ecosystem of specialized called.</p>
+          <p className='text-sm md:text-lg lg:max-w-[850px] lg:mx-auto my-4'>Polkadot unites and secures a growing ecosystem of specialized blockchains called parachains. Apps and services on Polkadot can ecosystem of specialized called.</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8'>
           {portfolioData.map((portfolio) => (
