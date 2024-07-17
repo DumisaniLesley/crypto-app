@@ -27,7 +27,7 @@ const cardData = [
 ]
 const About = () => {
   return (
-    <div className='max-w-[85%] mx-auto mt-40 md:mt-60 lg:mt-6'>
+    <div id='#about' className='max-w-[85%] mx-auto mt-40 md:mt-60 lg:mt-6'>
         <div className='flex-col justify-between items-center'>
           <div className='grid grid-cols-1 lg:grid-cols-2 justify-between items-center'>
             <h2 className='text-2xl uppercase font-bold'>Your <span className='text-[#BBED2B]'>trusted</span>  partner of cryptocurrency.</h2>

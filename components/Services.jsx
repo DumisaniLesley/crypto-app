@@ -5,7 +5,7 @@ import { MdOutlineArrowForward } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className='max-w-[85%] mx-auto'>
+    <div id="#services" className='max-w-[85%] mx-auto'>
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center h-screen lg:gap-20">
         <div>
           <Image src='/assets/Frame2.png' width={1500} height={500} alt='Services'/>
